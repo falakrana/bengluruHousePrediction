@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Bangalore Home Price Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="announcement-bar">
+        🏠 Find your dream home's value in seconds! | <a href="/predict">Try Now</a>
+    </div>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-home logo-icon"></i>
+                Bangalore Home Price Predictor
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/predict">Predict</a></li>
+                <li><a href="/about" class="active">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-section container">
+            <h1 class="section-title">About the Project</h1>
+            <p class="section-subtitle">Learn more about our machine learning model and the team behind it.</p>
+            
+            <div class="wave-divider">
+                <svg viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0,10 C30,20 70,0 100,10 L100,20 L0,20 Z" />
+                </svg>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h2><i class="fas fa-cogs"></i> How it Works</h2>
+                    <p>This Bangalore Home Price Prediction application uses a machine learning model trained on thousands of real estate listings across Bangalore. The model uses Linear Regression to predict home prices based on:</p>
+                    <ul>
+                        <li>Location (240+ areas in Bangalore)</li>
+                        <li>Total square feet area</li>
+                        <li>Number of bedrooms (BHK)</li>
+                        <li>Number of bathrooms</li>
+                    </ul>
+                    
+                    <h2><i class="fas fa-laptop-code"></i> Technology Stack</h2>
+                    <ul>
+                        <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+                        <li><strong>Backend:</strong> Flask (Python)</li>
+                        <li><strong>Machine Learning:</strong> Scikit-learn (Linear Regression)</li>
+                        <li><strong>Data Processing:</strong> Pandas, NumPy</li>
+                    </ul>
+                    
+                    <h2><i class="fas fa-chart-line"></i> Data Sources</h2>
+                    <p>Our model is trained on a comprehensive dataset of Bangalore real estate listings, covering properties across the city. The data includes information on property size, location, amenities, and historical sale prices.</p>
+                </div>
+                
+                <div class="team-section">
+                    <h2 style="text-align: center; font-style: italic;">Developer</h2>
+                    <div class="team-member">
+                        <img src="../static/myImage/myImage.jpg" alt="Developer" class="team-photo">
+                        <h3 style="font-style: italic;">Falak Rana</h3>
+                        <p  style="font-style: italic;">Data Scientist & Web Developer</p>
+                        <div class="social-links">
+                            <a href="https://github.com/falakrana" target="_blank" class="social-link" style="font-style: italic;">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/falak-rana-125520221/" target="_blank" class="social-link" style="font-style: italic;">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Bangalore Home Price Predictor</h3>
+                <p>Get accurate price predictions for homes in Bangalore using our machine learning model trained on thousands of real estate listings.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="/">Home</a>
+                    <a href="/predict">Predict</a>
+                    <a href="/about">About</a>
+                    <a href="/contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <div class="footer-links">
+                    <a href="mailto:ranafalak18@gmail.com">ranafalak18@gmail.com</a>
+                    <a href="https://github.com/falakrana">GitHub</a>
+                    <a href="https://www.linkedin.com/in/falak-rana-125520221/">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright container">
+            <p>&copy; 2025 Bangalore Home Price Predictor. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
