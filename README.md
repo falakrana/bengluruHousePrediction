@@ -63,7 +63,7 @@ Contributions are welcome! Feel free to fork the repo and submit pull requests.
 
 ## 📩 Contact
 - **GitHub:** [falakrana](https://github.com/falakrana)
-- **Email:** (Add your email if you'd like to be contacted)
+- **Email:** (ranafalak18@gmail.com)
 
 ---
 ### ⭐ If you like this project, don't forget to star the repo!
